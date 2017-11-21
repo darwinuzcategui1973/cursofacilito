@@ -15,7 +15,7 @@ angular.module("directivaPers",[])
 style="background:url({{repo.owner.avatar_url}});background-position:center;background-size:cover;"
 */
 .controller("appControl", function($scope,$http){
-	$http.get("https://api.github.com/users/codigofacilito/repos")
+	$http.get("https://api.github.com/users/darwinuzcategui1973/repos")
 	.then(function(data) {
 		console.log("ante",$scope.repos);
 		console.log(data);
