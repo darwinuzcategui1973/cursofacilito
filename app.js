@@ -6,7 +6,7 @@ angular.module("directivaPers",[])
 			element.css({
 				"background": "url(" +value+")",
 				"background-size": "cover",
-				"background-position": "center"
+				"background-position": "left"
 			});
 		});
 	}
